@@ -23,7 +23,44 @@ function unlockRoom1() {
   document.getElementById('room1CheckIn').style.visibility = "visible";
 }
 
+function lockRoom2() {
+  document.getElementById('room2CheckIn').style.visibility = "hidden";
+}
 
+function unlockRoom2() {
+  document.getElementById('room2CheckIn').style.visibility = "visible";
+}
+function lockRoom3() {
+  document.getElementById('room3CheckIn').style.visibility = "hidden";
+}
+
+function unlockRoom3() {
+  document.getElementById('room3CheckIn').style.visibility = "visible";
+}
+
+function lockRoom4() {
+  document.getElementById('room4CheckIn').style.visibility = "hidden";
+}
+
+function unlockRoom4() {
+  document.getElementById('room4CheckIn').style.visibility = "visible";
+}
+
+function lockRoom5() {
+  document.getElementById('room5CheckIn').style.visibility = "hidden";
+}
+
+function unlockRoom5() {
+  document.getElementById('room5CheckIn').style.visibility = "visible";
+}
+
+function lockRoom6() {
+  document.getElementById('room6CheckIn').style.visibility = "hidden";
+}
+
+function unlockRoom6() {
+  document.getElementById('room6CheckIn').style.visibility = "visible";
+}
 
  //timer to kick out guests for cleaning
   
@@ -402,4 +439,3 @@ function removeName6() { //remove the listed name
   var li = ol.childNodes[0]; //define which li to remove
   ol.removeChild(li)[0];
  }
- 
